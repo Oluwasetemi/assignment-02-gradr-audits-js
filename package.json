@@ -1,18 +1,25 @@
 {
     "name": "assignment-02-audits-js",
     "version": "1.0.0",
+    "type": "module",
     "main": "index.js",
-    "repository": "https://github.com/exam-01-practice/assignment-02-audits-js",
-    "author": "Charles Opute Odili <chaluwa@gmail.com>",
+    "repository": "https://github.com/Oluwasetemi/assignment-02-audits-js",
+    "author": {
+      "name": "Oluwasetemi Ojo",
+      "email": "setemiojo@gmail.com",
+      "url": "https://github.com/Oluwasetemi"
+    },
     "license": "MIT",
     "scripts": {
-      "audit-ch-1": "jest --json --rootDir=ch-1 --outputFile=ch-1/ch-1.json --noStackTrace --colors",
-      "audit-ch-2": "jest --json --rootDir=ch-2 --outputFile=ch-2/ch-2.json --noStackTrace --colors",
-      "audit-ch-3": "jest --json --rootDir=ch-3 --outputFile=ch-3/ch-3.json --noStackTrace --colors"
+      "audit-ch-1": "vitest run --reporter=json --outputFile=ch-1/ch-1.json ch-1/test.js",
+      "audit-ch-2": "vitest run --reporter=json --outputFile=ch-2/ch-2.json ch-2/test.js",
+      "audit-ch-3": "vitest run --reporter=json --outputFile=ch-3/ch-3.json ch-3/test.js",
+      "test": "vitest",
+      "test:run": "vitest run"
     },
     "dependencies": {
-      "axios": "^0.27.2",
-      "jest": "^28.1.1"
+      "axios": "^1.11.0",
+      "vitest": "^3.2.4"
     }
+
   }
-  

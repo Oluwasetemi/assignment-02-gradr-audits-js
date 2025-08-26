@@ -1,7 +1,6 @@
-const assignment = require('../../src/assignment.js');
-const axios = require('axios');
+import { sumOfNumbersTo } from '../src/assignment.js';
+import axios from 'axios';
 
-const { sumOfNumbersTo } = assignment;
 const maybe = sumOfNumbersTo === undefined ? test.skip : test;
 
 maybe('Challenge - 1 : sumOfNumbersTo can sum the numbers from 1 to destination', async () => {

@@ -1,7 +1,6 @@
-const assignment = require('../../src/assignment.js');
-const axios = require('axios');
+import { countEvenNumbersWithin } from '../src/assignment.js';
+import axios from 'axios';
 
-const { countEvenNumbersWithin } = assignment;
 const maybe = countEvenNumbersWithin === undefined ? test.skip : test;
 
 maybe('Challenge - 2 : countEvenNumbersWithin can count, sum, arrayOfEvenNumbers from 1 to destination', async () => {

@@ -1,7 +1,6 @@
-const assignment = require('../../src/assignment.js');
-const axios = require('axios');
+import { celsiusToFahrenheit } from '../src/assignment.js';
+import axios from 'axios';
 
-const { celsiusToFahrenheit } = assignment;
 const maybe = celsiusToFahrenheit === undefined ? test.skip : test;
 
 maybe('Challenge - 3 : celsiusToFahrenheit can convert array of numbers', async () => {
