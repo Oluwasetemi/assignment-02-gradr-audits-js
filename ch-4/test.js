@@ -9,5 +9,5 @@ maybe('Challenge - 4 : oddNumbersWithin can count, sum, arrayOfOddNumbers from 0
     const [randomTestData] = results;
     const { value, correctFunction } = randomTestData;
 
-    expect(sumOfNumbersTo(value)).toBe(correctFunction);
+    expect(oddNumbersWithin(value)).toStrictEqual(correctFunction);
 });

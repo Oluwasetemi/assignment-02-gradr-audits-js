@@ -9,5 +9,5 @@ maybe('Challenge - 6 : calculateFactorials can calculate factorials for positive
     const [randomTestData] = results;
     const { value, correctFunction } = randomTestData;
 
-    expect(calculateFactorials(value)).toBe(correctFunction);
+    expect(calculateFactorials(value)).toStrictEqual(correctFunction);
 });

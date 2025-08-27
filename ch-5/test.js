@@ -9,5 +9,5 @@ maybe('Challenge - 5 : findMultiples can find multiples of a factor in an array'
     const [randomTestData] = results;
     const { value, correctFunction } = randomTestData;
 
-    expect(findMultiples(value[0], value[1])).toBe(correctFunction);
+    expect(findMultiples(value[0], value[1])).toStrictEqual(correctFunction);
 });

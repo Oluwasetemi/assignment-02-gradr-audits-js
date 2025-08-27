@@ -9,5 +9,5 @@ maybe('Challenge - 7 : findPrimeNumbers can find prime numbers in an array', asy
     const [randomTestData] = results;
     const { value, correctFunction } = randomTestData;
 
-    expect(findPrimeNumbers(value)).toBe(correctFunction);
+    expect(findPrimeNumbers(value)).toStrictEqual(correctFunction);
 });

@@ -9,5 +9,5 @@ maybe('Challenge - 8 : doubleTheValues can double positive numbers', async () =>
     const [randomTestData] = results;
     const { value, correctFunction } = randomTestData;
 
-    expect(doubleTheValues(value)).toBe(correctFunction);
+    expect(doubleTheValues(value)).toStrictEqual(correctFunction);
 });
