@@ -14,6 +14,11 @@
       "audit-ch-1": "vitest run --reporter=json --outputFile=ch-1/ch-1.json ch-1/test.js",
       "audit-ch-2": "vitest run --reporter=json --outputFile=ch-2/ch-2.json ch-2/test.js",
       "audit-ch-3": "vitest run --reporter=json --outputFile=ch-3/ch-3.json ch-3/test.js",
+      "audit-ch-4": "vitest run --reporter=json --outputFile=ch-4/ch-4.json ch-4/test.js",
+      "audit-ch-5": "vitest run --reporter=json --outputFile=ch-5/ch-5.json ch-5/test.js",
+      "audit-ch-6": "vitest run --reporter=json --outputFile=ch-6/ch-6.json ch-6/test.js",
+      "audit-ch-7": "vitest run --reporter=json --outputFile=ch-7/ch-7.json ch-7/test.js",
+      "audit-ch-8": "vitest run --reporter=json --outputFile=ch-8/ch-8.json ch-8/test.js",
       "test": "vitest",
       "test:run": "vitest run"
     },
